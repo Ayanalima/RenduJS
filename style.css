@@ -1,0 +1,97 @@
+font-family: "Nunito", sans-serif;
+
+font-family: "outfit", sans-serif;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#plats-container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.card{
+
+        flex-direction: column;
+        background-color: #ffffffe6;
+        width: 19%;
+        align-items: center;
+        border-radius: 30px;
+        text-align: justify;
+        display: grid;
+        overflow: hidden;
+        grid-template-rows: max-content 200px 1fr;
+  }
+
+  .card img{
+    justify-self: center;
+    width: 100%;
+  }
+
+  h1{
+    justify-self: center;
+  }
+
+  body {
+    background: linear-gradient(253deg, #1B306D, #02753A, #E4CD04);
+    background-size: 300% 300%;
+    -webkit-animation: Background 25s ease infinite;
+    -moz-animation: Background 25s ease infinite;
+    animation: Background 25s ease infinite;
+
+	
+	min-height: 100vh;
+  }
+
+  @-webkit-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
