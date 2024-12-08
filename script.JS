@@ -46,11 +46,20 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
      // services XD ??ù
      const servicesContainer = document.getElementById('services-container');
      data.services.forEach(service => {
-       const card = createCard(service, false);
-       servicesContainer.appendChild(card);
+       const cardS = createCard(service, false);
+       servicesContainer.appendChild(cardS);
      });
 
+     const avisContainer = document.getElementById('avis-container');
+     data.temoignages.forEach(avis => {
+       const card = createCard(avis, false);
+       avisContainer.appendChild(card);
+     });
+
+
    
+
+     
 })
 .catch(error => console.error('Error:', error));
 
