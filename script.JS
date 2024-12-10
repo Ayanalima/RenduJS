@@ -69,7 +69,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
 
 
        
-//objet.key
+//objet.key  
 //objet[key]
 
 // let variable = objet[key]
